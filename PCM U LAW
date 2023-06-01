@@ -1,4 +1,4 @@
-close ;
+close  all;
 function [Cx, Xmax]=Alaw(x, A)
 Xmax = max(abs(x));
 for i = 1:length(x)
